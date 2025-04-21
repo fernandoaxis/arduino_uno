@@ -1,1 +1,4 @@
-:)
+no circuito foi utilizado o tmp36 (Temperature Sensor [TMP36]) para faze-lo funcionar corretamente é necessario alterar um trecho do codigo (linha 13) aplicando a formula correta, segue abaixo o trecho a ser substituido
+
+ temperatura = ((leitura * 5.0 / 1024.0) - 0.5) * 100;
+
